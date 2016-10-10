@@ -1,0 +1,22 @@
+{
+  "name": "angular-blackjack-beamery",
+  "description": "AngularJS implementation of the popular Blackjack game",
+  "main": "index.js",
+  "authors": [
+    "Zsolt Szalai"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.5.0",
+    "html5shiv": "^3.7.3"
+  },
+  "dependencies": {}
+}

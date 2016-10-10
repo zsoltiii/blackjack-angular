@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Blackjack game</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width">
+      <link rel="icon" type="image/png" href="../favicon.png" sizes="32x32" />
+      <script src="../bower_components/angular/angular.js"></script>
+      <script src="js/index.module.js"></script>
+      <script src="js/index.js"></script>
+      <script src="js/components/cards.constant.js"></script>
+      <script src="js/components/card.factory.js"></script>
+      <script src="js/components/hand.factory.js"></script>
+      <script src="js/components/button.factory.js"></script>
+      <script src="js/components/blackjack.factory.js"></script>
+      <script src="js/components/deck.factory.js"></script>
+      <script src="js/components/canvasEngine.factory.js"></script>
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+        <script src="../bower_components/html5shiv/dist/html5shiv.min.js"></script>
+      <![endif]-->
+  </head>
+  <body ng-app="angular-blackjack-beamery">
+    <div ng-controller="GameController as gamecontrol">
+      <canvas id="canvas" style="border: 1px gray solid; float: left"></canvas>
+    </div>
+  </body>
+</html>

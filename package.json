@@ -1,0 +1,29 @@
+{
+  "name": "angular-blackjack-beamery",
+  "version": "1.0.0",
+  "description": "AngularJS implementation of the popular Blackjack game",
+  "main": "app/js/index.module.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "lint": "jshint app --reporter=node_modules/jshint-stylish",
+    "build": "npm run lint",
+    "test": "karma start karma.conf.js",
+    "start": "http-server -a 192.168.33.10 -p 8080 -c-1"
+  },
+  "keywords": ["angular", "Blackjack"],
+  "dependencies": {},
+  "devDependencies": {
+    "angular-mocks": "~1.5.8",
+    "http-server": "~0.9.0",
+    "jasmine-core": "~2.5.2",
+    "jshint": "~2.9.3",
+    "jshint-stylish": "~2.2.1",
+    "karma": "~0.12.37",
+    "karma-jasmine": "~0.3.8",
+    "karma-phantomjs-launcher": "~1.0.2",
+    "karma-script-launcher": "~0.1.0",
+    "phantomjs-prebuilt": "~2.1.12"
+  },
+  "author": "Zsolt Szalai",
+  "license": "MIT"
+}

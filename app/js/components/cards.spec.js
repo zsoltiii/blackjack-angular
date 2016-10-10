@@ -9,7 +9,7 @@ describe('Cards constant', function(){
   }));
 
   it('should have correct sprite value', function() {
-    expect(Cards.sprite).toEqual('img/cards_jfitz.png');
+    expect(Cards.sprite).toEqual('https://zsoltiii.github.io/angular-blackjack-beamery/app/img/cards_jfitz.png');
   });
 
 });

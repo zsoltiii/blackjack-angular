@@ -12,8 +12,8 @@
       'suits': ['C', 'S', 'H', 'D'],
       'ranks': ['A', '2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K'],
       'values': {'A':1, '2':2, '3':3, '4':4, '5':5, '6':6, '7':7, '8':8, '9':9, 'T':10, 'J':10, 'Q':10, 'K':10},
-      'sprite': 'img/cards_jfitz.png',
-      'backsprite': 'img/card_jfitz_back.png',
+      'sprite': 'https://zsoltiii.github.io/angular-blackjack-beamery/app/img/cards_jfitz.png',
+      'backsprite': 'https://zsoltiii.github.io/angular-blackjack-beamery/app/img/card_jfitz_back.png',
       'size': [72, 96],
       'center': [36, 48]
     });

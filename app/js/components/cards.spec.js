@@ -9,7 +9,7 @@ describe('Cards constant', function(){
   }));
 
   it('should have correct sprite value', function() {
-    expect(Cards.sprite).toEqual('/app/img/cards_jfitz.png');
+    expect(Cards.sprite).toEqual('app/img/cards_jfitz.png');
   });
 
 });
